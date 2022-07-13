@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Yellowtail', cursive;
-    font-size: 27px;
+    font-size: 26px;
     font-weight: lighter;
 }
 
@@ -35,7 +35,7 @@ body {
     right: 10px;
     background-image: linear-gradient(to right,rgba(17,90,213,1), rgba(7,138,229,0.8));
     border-radius: 9vh;
-    transform: rotate(55deg);
+    transform: rotate(58deg);
     left: -30vh;
     bottom: -25px;
 }

@@ -6,18 +6,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login - Signup</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="square-top"></div>
     <div class="container">
         <h2>Login</h2>
         <div class="login-form">
-            <label for="email"><b>Email ID</b></label>
-            <input type="text" name="email" required>
-            <label for="password"><b>Password</b></label>
-            <input type="password" name="password" required>
+            <div>
+                <label for="email"><b>Email ID</b></label>
+                <input type="text" name="email" required>
+            </div>
+            <div class="font-control">
+                <label for="password"><b>Password</b></label>
+                <div class="icon">
+                    <input type="password" name="password" required>
+                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
+                </div>
+            </div>
             <button>Sign in</button>
-            <p>Don't have an account? <a href="">Create new</a></p>
+            <p>Don't have an account ?<a href=""> Create new</a></p>
         </div>
     </div>
     <div class="square-bottom"></div>

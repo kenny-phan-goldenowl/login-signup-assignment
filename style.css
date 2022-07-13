@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Yellowtail', cursive;
+    font-size: 27px;
+    font-weight: lighter;
 }
 
 body {
@@ -11,7 +14,6 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 .square-top {
@@ -46,9 +48,11 @@ body {
 .container h2 {
     margin: 30px;
     text-align: center;
+    font-size: 40px;
 }
 
 input[type=text], input[type=password] {
+    position: relative;
     width: 100%;
     padding: 15px;
     margin: 10px 0 25px 0;
@@ -73,3 +77,24 @@ a {
     color: rgba(7,138,229);
     text-decoration: none;
 }
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: green;
+}
+
+.icon {
+    position: relative;
+}
+
+span {
+    top: 25%;
+    right: 20px;
+    position:absolute;
+}
+
+
+

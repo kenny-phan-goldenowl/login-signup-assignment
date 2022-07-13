@@ -96,5 +96,6 @@ span {
     position:absolute;
 }
 
-
-
+.redirect-button {
+    background-color: white;
+}

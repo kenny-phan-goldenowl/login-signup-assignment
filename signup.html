@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Sign up</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -14,8 +14,12 @@
 <body>
     <div class="square-top"></div>
     <div class="container">
-        <h2>Login</h2>
-        <div class="login-form">
+        <h2>Sign Up</h2>
+        <div>  
+            <div>
+                <label for="full-name"><b>Full Name</b></label>
+                <input type="text" name="full-name" required>
+            </div>
             <div>
                 <label for="email"><b>Email ID</b></label>
                 <input type="text" name="email" required>
@@ -27,8 +31,15 @@
                     <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
                 </div>
             </div>
-            <button>Sign in</button>
-            <p>Don't have an account ?<a href="signup.html"> Create new</a></p>
+            <div class="font-control">
+                <label for="password"><b>Confirmed Password</b></label>
+                <div class="icon">
+                    <input type="password" name="password" required>
+                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
+                </div>
+            </div>
+            <button>Sign Up</button>
+            <p>I had the account?<a href="index.html"> Sign in now</a></p>
         </div>
     </div>
     <div class="square-bottom"></div>

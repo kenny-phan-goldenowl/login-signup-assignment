@@ -17,27 +17,25 @@ body {
 }
 
 .square-top {
-    position: absolute;
+    position: fixed;
     height: 50vh;
-    width: 25vw;
-    right: 10px;
+    width: 30vw;
     background-image: linear-gradient(to right, rgba(17,90,213,1), rgba(7,138,229,0.8));
     border-radius: 9vh;
     transform: rotate(30deg);
     right: -21vh;
-    top: -100px;
+    top: -10vh;
 }
 
 .square-bottom {
-    position: absolute;
+    position: fixed;
     height: 50vh;
-    width: 25vw;
-    right: 10px;
-    background-image: linear-gradient(to right,rgba(17,90,213,1), rgba(7,138,229,0.8));
+    width: 30vw;
+    background-image: linear-gradient(to right,rgba(7,138,229,0.8), rgba(17,90,213,0.9));
     border-radius: 9vh;
     transform: rotate(58deg);
-    left: -30vh;
-    bottom: -25px;
+    left: -28vh;
+    bottom: 7vh;
 }
 
 .container {

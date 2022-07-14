@@ -90,16 +90,6 @@ input[type=text], input[type=password] {
     background: #f1f1f1;
 }
 
-.icon {
-    position: relative;
-}
-
-span {
-    top: 58vh;
-    right: 36vw;
-    position: absolute;
-}
-
 a {
     color: rgba(7,138,229);
     text-decoration: none;
@@ -113,16 +103,26 @@ a:active {
     color: green;
 }
 
+.icon {
+    position: relative;
+}
+
+.login span {
+    top: 25px;
+    right : 17px;
+    position: absolute;
+}
+
 .password-icon1 {
-    top: 55.5vh;
-    right: 36vw;
-    position:absolute;
+    top: 25px;
+    right : 17px;
+    position: absolute;
 }
 
 .password-icon2 {
-    top: 69vh;
-    right: 36vw;
-    position:absolute;
+    top: 25px;
+    right : 17px;
+    position: absolute;
 }    
 
 button {

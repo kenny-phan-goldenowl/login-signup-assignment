@@ -22,10 +22,10 @@ loginForm.addEventListener("submit", e => {
 
     if (email.value === "abc" && password.value === "123") {
         window.location.href = 'landingpage.html';
+    } else {
+        alert("Wrong email or password")
     }
-    if (email.value === "abc" && password.value === "123") {
-        location.href = "landingpage.html",true;
-    }
+
 })
 
 

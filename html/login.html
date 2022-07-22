@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/css/loginsignup.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- <div class="square-top"></div>
+    <div class="container">
+        <h2>Login</h2>
+        <div>
+            <div>
+                <label for="email"><b>Email ID</b></label>
+                <input type="text" name="email" required>
+            </div>
+            <div>
+                <label for="password"><b>Password</b></label>
+                <div class="icon">
+                    <input type="password" name="password" required>
+                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
+                </div>
+            </div>
+            <button>Sign in</button>
+            <p>Don't have an account ?<a href="signup.html"> Create new</a></p>
+        </div>
+    </div>
+    <div class="square-bottom"></div> -->
+    <div class="container">
+        <div class="square-top"></div>
+
+        <form id="loginForm" class="login" method="GET">
+            <h1 class="title">Login</h1>
+            <div>
+                <label for="email" class="email">Email ID</label>
+                <input type="text" name="email" id="email">
+                <div id="email-error"></div>
+            </div>
+            <div>
+                <label for="password" class="password">Password</label>
+                <div class="icon">
+                    <input type="password" name="password" id="password">
+                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
+                </div>
+            </div>
+            <div id="password-error"></div>
+            <button type="submit">Sign in</button>
+            <p>Don't have an account ?<a href="/html/signup.html"> Create new</a></p>
+        </form>
+
+        <div class="square-bottom"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>

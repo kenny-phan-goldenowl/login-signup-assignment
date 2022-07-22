@@ -79,7 +79,7 @@
     font-size: 2rem;
 }
 
-input[type=text], input[type=password] {
+input[type=text], input[type=password], input[type=email] {
     position: relative;
     width: 100%;
     padding: 1.5vh;
@@ -139,6 +139,12 @@ a:active {
 }
 
 #cpassword-error {
+    font-size: 20px;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.serror {
     font-size: 20px;
     color: red;
     margin-bottom: 20px;

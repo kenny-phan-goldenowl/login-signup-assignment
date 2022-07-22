@@ -12,54 +12,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Yellowtail&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- <div class="square-top"></div>
-    <div class="container">
-        <h2>Sign Up</h2>
-        <div>  
-            <div>
-                <label for="full-name"><b>Full Name</b></label>
-                <input type="text" name="full-name" required>
-            </div>
-            <div>
-                <label for="email"><b>Email ID</b></label>
-                <input type="text" name="email" required>
-            </div>
-            <div>
-                <label for="password"><b>Password</b></label>
-                <div class="icon">
-                    <input type="password" name="password" required>
-                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
-                </div>
-            </div>
-            <div>
-                <label for="cpassword"><b>Confirm Password</b></label>
-                <div class="icon">
-                    <input type="password" name="cpassword" required>
-                    <span><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
-                </div>
-            </div>
-            <button>Sign Up</button>
-            <p>I had the account?<a href="index.html"> Sign in now</a></p>
-        </div>
-    </div>
-    <div class="square-bottom"></div> -->
     <div class="container">
         <div class="square-top"></div>
-        <form id= "signUpForm"class="login1">
-            <h1>Sign in</h1>
+        <form id= "signUpForm" class="login1" method="GET">
+            <h1>Sign Up</h1>
             <div>
                 <label for="fname">Full Name</label>
                 <input type="text" name="fname" id="fname">
+                <div class="serror" id="fname-error"></div>
             </div>
             <div>
                 <label for="email">Email ID</label>
-                <input type="text" name="email" id="sign-up-mail">
+                <input type="email" name="email" id="sign-up-mail">
+                <div class="serror" id="smail-error"></div>
             </div>
             <div>
                 <label for="password">Password</label>
                 <div class="icon">
                     <input type="password" name="password" id="sign-up-password">
                     <span class="password-icon1"><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
+                    <div class="serror" id="spass-error"></div>
                 </div>
             </div>
             <div>
@@ -67,14 +39,15 @@
                 <div class="icon">
                     <input type="password" name="cpassword" id="sign-up-cpassword">
                     <span class="password-icon2"><i class="fa fa-eye-slash" aria-hidden="true"></i></span> 
+                    <div class="serror" id="cspass-error"></div>
                 </div>
             </div>
             <div id="cpassword-error"></div>
-            <button>Sign Up</button>
+            <button type="submit" id="sbtn">Sign Up</button>
             <p>I had the account ?<a href="/html/login.html"> Sign in now</a></p>
         </form>
         <div class="square-bottom"></div>
     </div>
-    <script src="/js/script.js"></script>
+    <script src="/js/signup.js"></script>
 </body>
 </html>

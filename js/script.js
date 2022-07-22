@@ -23,6 +23,7 @@ loginForm.addEventListener("submit", e => {
     } else {passError.innerText = ""}
 
     if (userMail === output.email && userPass === output.password) {
+        alert("Login in success, redirecting to Landingpage")
         window.location.href = '/html/landingpage.html';
     } else {
         alert("Wrong email or password")

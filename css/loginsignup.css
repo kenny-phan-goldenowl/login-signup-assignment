@@ -181,29 +181,29 @@ button:hover {
         height: 100vh;
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: center;
         align-items: center;
     }
     
     .square-top {
-        position: relative;
+        position: fixed;
         height: 15vh;
-        width: 35vw;
+        width: 30vw;
         background-image: linear-gradient(to right, rgba(17,90,213,1), rgba(7,138,229,0.8));
         border-radius: 5vw;
         transform: rotate(30deg);
-        right: -45vw;
-        top: -5vh;
+        right: -9%;
+        top: -4%;
     }
     
     .square-bottom {
-        position: relative;
+        position: fixed;
         height: 15vh;
         width: 35vw;
         background-image: linear-gradient(to right,rgba(7,138,229,0.8), rgba(17,90,213,0.9));
         border-radius: 5vw;
         transform: rotate(58deg);
-        left: -50vw;
+        left: -15%;
         bottom: 1vh;
     }
     

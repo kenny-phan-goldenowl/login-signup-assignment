@@ -9,6 +9,10 @@ let smail = document.getElementById('sign-up-mail')
 let spassword = document.getElementById('sign-up-password')
 let scpassword = document.getElementById('sign-up-cpassword')
 
+if (localStorage.getItem("isLogin") === "true") {
+    window.location.href = "/html/landingpage.html"
+}
+
 loginForm.addEventListener("submit", e => {
     const userMail = email.value;
     const userPass = password.value;
@@ -24,6 +28,7 @@ loginForm.addEventListener("submit", e => {
 
     if (userMail === output.email && userPass === output.password) {
         alert("Login in success, redirecting to Landingpage")
+        localStorage.setItem("isLogin", "true")
         window.location.href = '/html/landingpage.html';
     } else {
         alert("Wrong email or password")
